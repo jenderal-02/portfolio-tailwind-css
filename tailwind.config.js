@@ -1,5 +1,6 @@
 module.exports = {
   content: ["index.html"],
+  darkMode:'class',
   theme: {
     container: {
       center: true,
@@ -18,3 +19,7 @@ module.exports = {
   },
   plugins: [],
 };
+
+
+
+// npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
